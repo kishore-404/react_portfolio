@@ -6,6 +6,7 @@ import Qualification from "./components/Qualification.tsx"
 import Projects from "./components/Projects.tsx"
 import Contact from "./components/Contact.tsx"
 import Footer from "./components/Footer.tsx"
+import Loader from "./components/Loader.tsx"
 import { initUIEffects } from "./utils.tsx"
 function App() {
    useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
   }, []);
   return (
     <div className="overflow-x-hidden">
+      <Loader />
     <Header />
     <Banner />
     <SkillsSection />
