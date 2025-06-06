@@ -9,21 +9,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-  // Immediately apply dark-theme class if no preference or user prefers dark
-  (function () {
-    try {
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-      if (savedTheme === 'dark' || (savedTheme === null && prefersDark)) {
-        document.body.classList.add('dark-theme');
-      }
-    } catch (e) {
-      // Fail silently
-    }
-  })();
-</script>
-
   </body>
 </html>
