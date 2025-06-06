@@ -20,12 +20,12 @@ const projects = [
     title: "Youtube-Clone",
     link: "https://youtube-clone-kishore.netlify.app/",
   },
-  // {
-  //   img: Project2,
-  //   subtitle: "Education ladnding page",
-  //   title: "Edu Home Connect",
-  //   link: "https://eduhomeconnect.netlify.app/",
-  // },
+  {
+    img: Project2,
+    subtitle: "Education ladnding page",
+    title: "Edu Home Connect",
+    link: "https://eduhomeconnect.netlify.app/",
+  },
   {
     img: Project3,
     subtitle: "A Full-Fledged Website for CodeShip",

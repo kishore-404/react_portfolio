@@ -1,4 +1,4 @@
-import React, { useRef, FormEvent } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import {
   RiSendPlaneLine,
@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e: FormEvent) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
 
     if (!form.current) return;

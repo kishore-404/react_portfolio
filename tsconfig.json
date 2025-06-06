@@ -1,7 +1,26 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node16",
+"moduleResolution": "node16",
+      // or "bundler"
+    "jsx": "react-jsx",                  // Enables JSX support
+    "allowImportingTsExtensions": true,// false is fine if you remove `.tsx` in imports
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"          // put your custom .d.ts files here
+    ]
+  },
+  "include": ["src"]
 }
