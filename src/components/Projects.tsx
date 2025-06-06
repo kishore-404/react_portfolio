@@ -12,6 +12,7 @@ import Project1 from "../assets/images/project1.jpg";
 import Project2 from "../assets/images/project3.jpg";
 import Project3 from "../assets/images/codeship.png";
 import Project4 from "../assets/images/pet.png";
+import Project5 from "../assets/images/casio.png";
 
 const projects = [
   {
@@ -38,6 +39,13 @@ const projects = [
     title: "Twisty Tails",
     link: "https://eduhomeconnect.netlify.app/",
   },
+  {
+  img: Project5,
+  subtitle: "A Responsive and Interactive Calculator",
+  title: "Casio Calculator",
+  link: "https://simplecalculator-001.netlify.app/",
+}
+
 ];
 
 const Projects = () => {
