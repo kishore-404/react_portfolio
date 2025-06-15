@@ -617,6 +617,8 @@ body.dark-theme{
 
 .projects-swiper {
   padding: 1rem 0;
+  padding-bottom:20px;
+  
 }
 
 .project-slide {

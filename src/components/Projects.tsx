@@ -16,16 +16,16 @@ import Project5 from "../assets/images/casio.png";
 
 const projects = [
   {
-    img: Project1,
-    subtitle: "A Modern Video Streaming Layout",
-    title: "Youtube-Clone",
-    link: "https://youtube-clone-kishore.netlify.app/",
-  },
-  {
     img: Project2,
     subtitle: "Education ladnding page",
     title: "Edu Home Connect",
     link: "https://eduhomeconnect.netlify.app/",
+  },
+  {
+    img: Project1,
+    subtitle: "A Modern Video Streaming Layout",
+    title: "Youtube-Clone",
+    link: "https://youtube-clone-kishore.netlify.app/",
   },
   {
     img: Project3,
@@ -37,14 +37,20 @@ const projects = [
     img: Project4,
     subtitle: "The Full-Service Pet Veterinary Website",
     title: "Twisty Tails",
-    link: "https://eduhomeconnect.netlify.app/",
+    link: "https://pet-veterinary-eight.vercel.app/",
   },
   {
   img: Project5,
   subtitle: "A Responsive and Interactive Calculator",
   title: "Casio Calculator",
   link: "https://simplecalculator-001.netlify.app/",
-}
+},
+  {
+    img: Project3,
+    subtitle: "Codeship Landing Page",
+    title: "Codeship",
+    link: "https://codeship-ad.netlify.app/",
+  },
 
 ];
 
@@ -53,7 +59,7 @@ const Projects = () => {
     <section id="projects" className="projects-section ">
       <div className="projects-wrapper">
         <h2 className="projects-title">Projects</h2>
-        <span className="projects-subtitle">My personal projects</span>
+        <span className="projects-subtitle">Collaborative Builds</span>
 
         <div className="projects-swiper-container">
           <Swiper
