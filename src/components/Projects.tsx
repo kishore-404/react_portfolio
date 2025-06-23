@@ -13,7 +13,7 @@ import Project2 from "../assets/images/project3.jpg";
 import Project3 from "../assets/images/codeship.png";
 import Project4 from "../assets/images/pet.png";
 import Project5 from "../assets/images/casio.png";
-
+import Project6 from "../assets/images/project5.png";
 const projects = [
   {
     img: Project2,
@@ -51,15 +51,21 @@ const projects = [
     title: "Codeship",
     link: "https://codeship-ad.netlify.app/",
   },
+  {
+    img: Project6,
+  subtitle: "Stay Updated with Live Weather Reports",
+title: "Open Weather",
+    link: "https://weather-kishore.netlify.app/",
+  },
 
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects-section ">
+    <section id="projects" className="projects-section  ">
       <div className="projects-wrapper">
         <h2 className="projects-title">Projects</h2>
-        <span className="projects-subtitle">Collaborative Builds</span>
+      <span className="projects-subtitle">What I've  Learned & Built</span>
 
         <div className="projects-swiper-container">
           <Swiper
