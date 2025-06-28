@@ -25,7 +25,7 @@ const Qualification = () => {
               <span className="qualification__year">2024 - 2025</span>
             </div>
             <div>
-              <h3 className="qualification__name">Senior Secondary & High School (ISC/ICSE)</h3>
+              <h3 className="qualification__name">Senior Secondary & High School</h3>
               <span className="qualification__place">Santhome Higher Secondary School</span>
               <span className="qualification__year">2017 - 2023</span>
             </div>
