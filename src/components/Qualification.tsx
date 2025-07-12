@@ -44,7 +44,7 @@ const Qualification = () => {
               <span className="qualification__year">Feb 2023 - Jan 2025</span>
             </div>
             <div>
-              <h3 className="qualification__name">Full Stack Web Developer Intern</h3>
+              <h3 className="qualification__name">Frontend Developer Intern</h3>
               <span className="qualification__place">CodeShip - WestMambalam</span>
               <span className="qualification__year"> Feb 2025 - August 2025</span>
             </div>
