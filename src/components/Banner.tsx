@@ -18,7 +18,7 @@ function Banner() {
 
           <div className="home__blob grid">
             <div className="home__perfil">
-              <img src={kishore} alt="home perfil" />
+              <img src={kishore} alt="Kishore 404 Full Stack Developer" />
             </div>
             <img src={shape_wawes} alt="" className="home__shape-wawes" />
             <img src={shape_circle} alt="" className="home__shape-circle" />
