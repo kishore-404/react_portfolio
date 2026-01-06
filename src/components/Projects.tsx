@@ -45,22 +45,21 @@ const projects = [
     img: Project8,
   subtitle: "Mano Fitness Studio",
   title: "Modern Gym website  ",
+    link: "https://mano-fitness-studio.netlify.app/",
+  },
+    {
+    img: Project6,
+  subtitle: "Stay Updated with Live Weather Reports",
+title: "Open Weather",
     link: "https://weather-kishore.netlify.app/",
   },
-
- 
    {
     img: Project2,
     subtitle: "Education ladnding page",
     title: "Edu Home Connect",
     link: "https://eduhomeconnect.netlify.app/",
   },
-   {
-    img: Project6,
-  subtitle: "Stay Updated with Live Weather Reports",
-title: "Open Weather",
-    link: "https://weather-kishore.netlify.app/",
-  },
+ 
     {
   img: Project5,
   subtitle: "A Responsive and Interactive Calculator",
