@@ -14,13 +14,9 @@ import Project3 from "../assets/images/codeship.png";
 import Project4 from "../assets/images/pet.png";
 import Project5 from "../assets/images/casio.png";
 import Project6 from "../assets/images/project5.png";
+import Project7 from "../assets/images/loyola.png";
+import Project8 from "../assets/images/fitness.png"
 const projects = [
-  {
-    img: Project2,
-    subtitle: "Education ladnding page",
-    title: "Edu Home Connect",
-    link: "https://eduhomeconnect.netlify.app/",
-  },
   {
     img: Project1,
     subtitle: "A Modern Video Streaming Layout",
@@ -40,23 +36,37 @@ const projects = [
     link: "https://pet-veterinary-eight.vercel.app/",
   },
   {
-  img: Project5,
-  subtitle: "A Responsive and Interactive Calculator",
-  title: "Casio Calculator",
-  link: "https://simplecalculator-001.netlify.app/",
-},
-  {
     img: Project3,
     subtitle: "Codeship Landing Page",
     title: "Codeship",
     link: "https://codeship-ad.netlify.app/",
   },
-  {
+   {
+    img: Project8,
+  subtitle: "Mano Fitness Studio",
+  title: "Modern Gym website  ",
+    link: "https://weather-kishore.netlify.app/",
+  },
+
+ 
+   {
+    img: Project2,
+    subtitle: "Education ladnding page",
+    title: "Edu Home Connect",
+    link: "https://eduhomeconnect.netlify.app/",
+  },
+   {
     img: Project6,
   subtitle: "Stay Updated with Live Weather Reports",
 title: "Open Weather",
     link: "https://weather-kishore.netlify.app/",
   },
+    {
+  img: Project5,
+  subtitle: "A Responsive and Interactive Calculator",
+  title: "Casio Calculator",
+  link: "https://simplecalculator-001.netlify.app/",
+},
 
 ];
 
