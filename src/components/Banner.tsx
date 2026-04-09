@@ -63,7 +63,7 @@ function Banner() {
           <div>
             <h3 className="home__info-title">BIOGRAPHY</h3>
             <p className="home__info-description">
-              Hi, I'm Kishore, Full Stack Web Developer. Passionate about building modern websites with React.
+              Hi, I'm Kishore, Full Stack Web Developer. Passionate about building modern websites with MERN.
             </p>
           </div>
           <div>
@@ -76,17 +76,18 @@ function Banner() {
           </div>
           <div>
             <h3 className="home__info-title">ACHIEVEMENTS</h3>
-            <p className="home__info-description">
-              Awarded Gold Medal for Academic Excellence in Computer Science 2024 <br />
-              Selected as - Codeship Intern, 2025 <br />
-            </p>
+           <ul className="home__info-description" style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+  <li>Gold Medalist – Academic Excellence in Computer Science</li>
+  <li>Technical Secretary – Loyola College</li>
+  <li>Best Volunteer Award – Women Empowerment Initiative</li>
+</ul>
           </div>
         </div>
 
         {/* ==================== HOME INFO 2 ==================== */}
         <div className="home__info">
           <div>
-            <h3 className="home__info-title">GRADUATING IN</h3>
+            <h3 className="home__info-title">GRADUATED</h3>
             <p className="home__info-number">2026</p>
           </div>
           <div>

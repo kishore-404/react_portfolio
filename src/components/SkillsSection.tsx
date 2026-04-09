@@ -2,33 +2,33 @@
 import React from "react";
 import { RiGlobalLine, RiCodeSSlashLine } from "react-icons/ri";
 // Importing images
-import HTML from '../assets/images/HTML.png';
-import BS from '../assets/images/BS.png';
-import tailwindCSS from '../assets/images/tailwindCSS.png';
-import JS from '../assets/images/JS.png';
+import Basic from '../assets/images/basic.png';
+import MongoDB from '../assets/images/mongodb.png';
+import Node from '../assets/images/node.png';
+import Express from '../assets/images/express.png';
 import Reactimg from '../assets/images/react.png';
 import DB from '../assets/images/database.png';
 import Python from '../assets/images/python.png';
 import DSA from '../assets/images/connection.png';
 
 import Figma from '../assets/images/figma.png';
-import java from '../assets/images/java.png';
+import JS from '../assets/images/JS.png';
 import solve from '../assets/images/solve.png';
 import git from '../assets/images/git-icon.svg';
 const SkillsSection = () => {
   // Skill data
   const devSkills = [
-    { name: 'HTML', img: HTML },
-    { name: 'Bootstrap', img: BS },
-    { name: 'Tailwind CSS', img: tailwindCSS },
-    { name: 'Javascript', img: JS },
-    { name: 'React.js', img: Reactimg },
+    { name: 'HTML CSS JS', img: Basic },
+    { name: 'MongoDB', img: MongoDB },
+     { name: 'Express.js', img: Express },
+      { name: 'React.js', img: Reactimg },
+    { name: 'Node.js', img: Node },
     { name: 'Figma', img: Figma },
   ];
 
   const fundamentals = [
     { name: 'Python', img: Python },
-    { name: 'Java', img: java },
+    { name: 'JavaScript', img: JS },
     { name: 'DSA', img: DSA },
     { name: 'DataBase', img: DB },
     { name: 'GIT', img: git },
